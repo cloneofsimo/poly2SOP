@@ -11,6 +11,10 @@ $$
 P(x^2) = P((-x)^2) = p(x)^5 + q(x)^5 = p(-x)^5 + q(-x)^5
 $$
 
+```math
+P(x^2)=P((-x)^2)=p(x)^5+q(x)^5=p(-x)^5+q(-x)^5
+```
+
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;P(x^2)=P((-x)^2)=p(x)^5+q(x)^5=p(-x)^5+q(-x)^5" title="P(x^2)=P((-x)^2)=p(x)^5+q(x)^5=p(-x)^5+q(-x)^5" />
 
 
