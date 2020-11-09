@@ -13,7 +13,7 @@ For example, if one finds non - trivial polynomial with no odd degree that is su
     <img src="https://latex.codecogs.com/svg.latex?P(x^2)=P((-x)^2)=p(x)^5+q(x)^5=p(-x)^5+q(-x)^5"/>
 </p>
 
-This approach was actually first used by Ramanujan, in his set of parameterized solutions of $a^3 + b^3 = c^3 +d^3$.
+This approach was actually first used by Ramanujan, in his set of parameterized solutions of <img src="https://latex.codecogs.com/svg.latex?a^3 + b^3 = c^3 +d^3"/>.
 
 Inspired from https://arxiv.org/pdf/1912.01412.pdf, I wondered if deep NNs are capable of such natural polynomial manipulations.
 
