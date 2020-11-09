@@ -7,12 +7,10 @@ Transformer takes a polynomial, expresses it as sum of powers.  Implemented with
 Tasks such as https://en.wikipedia.org/wiki/Sums_of_three_cubes, https://en.wikipedia.org/wiki/Taxicab_number and conjectures such as finding non - trivial integer solution of $a^5 + b^5 = c^5 + d^5$ requires deeper understanding of polynomial's characteristics. 
 
 For example, if one finds non - trivial polynomial with no odd degree that is sum of 2 quintics ($ P(x^2) = p(x)^5 + q(x)^5$), Than by clever substitution :
-$$
-P(x^2) = P((-x)^2) = p(x)^5 + q(x)^5 = p(-x)^5 + q(-x)^5
-$$
+
 
 <p align="center" width="100%">
-    <img src="https://latex.codecogs.com/svg.latex?P(x^2)=P((-x)^2)=p(x)^5+q(x)^5=p(-x)^5+q(-x)^5" title="P(x^2)=P((-x)^2)=p(x)^5+q(x)^5=p(-x)^5+q(-x)^5" />
+    <img src="https://latex.codecogs.com/svg.latex?P(x^2)=P((-x)^2)=p(x)^5+q(x)^5=p(-x)^5+q(-x)^5"/>
 </p>
 
 This approach was actually first used by Ramanujan, in his set of parameterized solutions of $a^3 + b^3 = c^3 +d^3$.
