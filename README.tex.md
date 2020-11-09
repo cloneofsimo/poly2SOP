@@ -11,6 +11,7 @@ $$
 P(x^2) = P((-x)^2) = p(x)^5 + q(x)^5 = p(-x)^5 + q(-x)^5
 $$
 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
 This approach was actually first used by Ramanujan, in his set of parameterized solutions of $a^3 + b^3 = c^3 +d^3$.
 
