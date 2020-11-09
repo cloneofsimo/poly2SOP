@@ -6,7 +6,7 @@ Transformer takes a polynomial, expresses it as sum of powers.  Implemented with
 
 Tasks such as https://en.wikipedia.org/wiki/Sums_of_three_cubes, https://en.wikipedia.org/wiki/Taxicab_number and conjectures such as finding non - trivial integer solution of <img src="https://latex.codecogs.com/svg.latex?a^5+b^5=c^5+d^5"/> requires deeper understanding of polynomial's characteristics. 
 
-For example, if one finds non - trivial polynomial with no odd degree that is sum of 2 quintics (<img src="https://latex.codecogs.com/svg.latex?P(x^2)=p(x)^5+q(x)^5"/>), Than by clever substitution :
+For example, if one finds non - trivial polynomial with no odd degree that is sum of 2 quintics (<img src="https://latex.codecogs.com/svg.latex?P(x^2)=p(x)^5+q(x)^5"/>), then by clever substitution :
 
 
 <p align="center" width="100%">
