@@ -4,7 +4,7 @@ Transformer takes a polynomial, expresses it as sum of powers.  Implemented with
 ## Introduction
 
 
-Tasks such as https://en.wikipedia.org/wiki/Sums_of_three_cubes, https://en.wikipedia.org/wiki/Taxicab_number and conjectures such as finding non - trivial integer solution of $a^5 + b^5 = c^5 + d^5$ requires deeper understanding of polynomial's characteristics. 
+Tasks such as https://en.wikipedia.org/wiki/Sums_of_three_cubes, https://en.wikipedia.org/wiki/Taxicab_number and conjectures such as finding non - trivial integer solution of <img src="https://latex.codecogs.com/svg.latex?a^5+b^5=c^5+d^5"/> requires deeper understanding of polynomial's characteristics. 
 
 For example, if one finds non - trivial polynomial with no odd degree that is sum of 2 quintics ($ P(x^2) = p(x)^5 + q(x)^5$), Than by clever substitution :
 
@@ -13,7 +13,7 @@ For example, if one finds non - trivial polynomial with no odd degree that is su
     <img src="https://latex.codecogs.com/svg.latex?P(x^2)=P((-x)^2)=p(x)^5+q(x)^5=p(-x)^5+q(-x)^5"/>
 </p>
 
-This approach was actually first used by Ramanujan, in his set of parameterized solutions of <img src="https://latex.codecogs.com/svg.latex?a^3 + b^3 = c^3 +d^3"/>.
+This approach was actually first used by Ramanujan, in his set of parameterized solutions of <img src="https://latex.codecogs.com/svg.latex?a^3+b^3=c^3+d^3"/>.
 
 Inspired from https://arxiv.org/pdf/1912.01412.pdf, I wondered if deep NNs are capable of such natural polynomial manipulations.
 
