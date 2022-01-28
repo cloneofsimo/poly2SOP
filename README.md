@@ -20,13 +20,13 @@ Inspired from https://arxiv.org/pdf/1912.01412.pdf, I wondered if deep NNs are c
 Here, we implement seq2seq model, using default pytorch's TransformerEncoder, TransformerDecoder module. Datasets were created with SymPy.
 
 ```python
-from SOP_model import poly2SOP
+from models import SOP
 
 chars = list("0987654321-+*()^xy")
 n_vocab = len(chars) + 2 #One for paddings, one for init token.
 device = torch.device("cuda:0")
 
-model = poly2SOP(
+model = SOP(
     d_model = 512,
     n_head = 8,
     num_layers = 6,
@@ -46,7 +46,7 @@ Simple use case with dataset I've created can be found in the repository too!
 chars = list("0987654321-+*()^xy")
 n_vocab = len(chars) + 2
 
-model = poly2SOP(
+model = SOP(
     d_model = 512,
     n_head = 8,
     num_layers = 6,
@@ -92,7 +92,7 @@ for epoch in range(1, epochs + 1):
 
 
 
-If you want, you can create your own datasets. 
+You can easily create your own dataset with sympy.
 
 
 
