@@ -1,3 +1,10 @@
+'''
+Dirty Experiments
+
+nothing really meainingful here
+'''
+
+
 from sympy import *
 from sympy.parsing.sympy_parser import parse_expr, standard_transformations, implicit_multiplication
 import random

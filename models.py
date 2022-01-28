@@ -1,3 +1,10 @@
+'''
+Transformer for Some of Power form.
+
+Written by:
+    Simo Ryu
+'''
+
 import math
 import torch
 import torch.nn as nn
@@ -5,6 +12,9 @@ import torch.nn.functional as F
 
 
 class SOP(nn.Module):
+    '''
+    Sum Of Powers Transformers
+    '''
     def __init__(self, chars, d_model = 512, num_layers = 6, n_vocab = 256, dim_feedforward = 1024, n_head = 8, max_len = 256, device = "cpu"):
         super().__init__()
         

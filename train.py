@@ -1,13 +1,22 @@
+'''
+Training code
+
+Written by:
+    Simo Ryu
+'''
+
+from tqdm import tqdm
+
 import torch
 import torch.nn as nn
 from torch.utils.data.dataloader import DataLoader
 import torch.optim as optim
-from tqdm import tqdm
 
 from eq_dataset import eq_dataset
-from SOP_model import SOP
+from models import SOP
 
-if __name__ == "__main__":
+
+def train():
     device = torch.device("cuda:0")
     epochs = 1
     batch_size = 64
@@ -61,3 +70,5 @@ if __name__ == "__main__":
     torch.save(model, "model.dat")
 
 
+if __name__ == "__main__":
+    train()
