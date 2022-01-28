@@ -12,7 +12,7 @@ import torch.nn as nn
 from torch.utils.data.dataloader import DataLoader
 import torch.optim as optim
 
-from eq_dataset import eq_dataset
+from eq_dataset import EquationsDataset
 from models import SOP
 
 
@@ -36,7 +36,7 @@ def train():
         device = device
     )
     opt = optim.AdamW(model.parameters(), lr = lr, weight_decay = 1e-10)
-    dataset = eq_dataset(max_len = max_len, chars = chars)
+    dataset = EquationsDataset(max_len = max_len, chars = chars)
     dl = DataLoader(dataset, shuffle= True, batch_size= batch_size,  drop_last= True, num_workers = 3)
     criterion = nn.CrossEntropyLoss()
     model.to(device)
